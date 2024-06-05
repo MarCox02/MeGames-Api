@@ -69,7 +69,7 @@ const games = [
         "desarrolladores": "EA",
         "genero":"Deportes Multijugador",
         "descripcion":"EA Sports FC 24 es un videojuego de fútbol, desarrollado por EA, y publicado por EA Sports. Este juego marca la primera entrega de la serie EA Sports FC, tras la conclusión de la asociación de EA con FIFA.​​",
-        "precio": 50000,
+        "precio": 40000,
     },
     {
         "id":"g09",

@@ -1,6 +1,7 @@
 const { request, response } = require("express");
 const { games } = require("../games");
 
+
 const getGames = (req, res)=> {
     return res.json({
         ok:true,
@@ -11,7 +12,7 @@ const getGames = (req, res)=> {
 
 const getGameById = (req = request, res = response)=> {
 
-    let id = parseInt(req.params.id);
+    let id = req.params.id;
     let gameABuscar = "";
     gameABuscar = games.find((juego)=> {
         return juego.id === id;
