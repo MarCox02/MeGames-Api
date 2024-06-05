@@ -10,5 +10,5 @@ app.get("/", getGames);
 app.get("/:id", getGameById);
 
 app.listen(puerto, ()=> {
-    console.log(`Servidor OK. Puerto: ${puerto}`);
+    console.log(`Servidor Juegos OK. Puerto: ${puerto}`);
 });
